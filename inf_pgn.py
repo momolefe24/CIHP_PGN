@@ -23,11 +23,11 @@ argp = argparse.ArgumentParser(description="Inference pipeline")
 argp.add_argument('-i',
                   '--directory',
                   type=str, help='Path of the input dir',
-                  default='./datasets/images')
+                  default='./datasets/dennis_images')
 argp.add_argument('-o',
                   '--output',
                   type=str, help='Path of the input dir',
-                  default='./datasets/output')
+                  default='./datasets/dennis_output')
 
 args = argp.parse_args()
 
